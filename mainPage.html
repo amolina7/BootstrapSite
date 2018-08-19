@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1, shrink-to-fit = no">
+        <link rel = "stylesheet" href="styles.css" type="text/css">
+        <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+<script>
+  $(document).ready(function(){
+    $("div a").click(function(){
+      $(this).addClass("active");
+      $(this).siblings().removeClass("active");
+    });
+  });
+</script>
+<body>
+<nav class = "navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+  <a class="navbar-brand" href="#"> PC </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse" id="navbarToggleExternalContent">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+    <a class="nav-link active" href="#">Home</a>
+    <a class="nav-link" href="#Portfolio">Portfolio</a>
+    <a class="nav-link" href="#Contact">Contact</a>
+  </div>
+</nav>   
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="jumbotron jumB" style="background-color:#e3f2fd;">
+        <div class="row">
+          <div class="col-6">
+            <p class="lead"> Front-End Developer with practical experience in project management, branding strategy, and creative direction. </p>
+            <hr class="my-6 star-bright">
+            <p class="lead"> Web Developer - User Experience Designer </p>
+          </div>
+          <div class="col-6">
+              <img src="http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/Water.jpg?itok=lOpwiABA" class="img-fluid mx-auto d-block" alt="Responsive image" id="water">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="jumbotron jumB" style="background-color:#e3f2fd">
+        <h2 class="text-center" id="Portfolio"> Portfolio </h2>
+        <hr class="title_handle">
+        <div class="row">
+          <div class="col-6">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaVOaCnygueK2jFozCDEBa3x7HvGa8DiMysHrONZy2UJKLMf92Cw" class="mx-auto d-block" alt="oranges">
+          </div>
+          <div class="col-6">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd4i8vQ-SSrLVKHkUcCVapUOPQupqCU7VZQahsGlKm7uDW5tM" class="mx-auto d-block" alt="mountains">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqWYUU_vo4eSfhM1LBoQHOcaQ7r6RvW1xOa670SseNzd9bx_qGjg" class="mx-auto d-block" alt="clouds">
+          </div>
+          <div class="col-6">
+            <img src="https://static1.squarespace.com/static/52d4725ee4b0d4a5bfc88830/5756ec9b27d4bd18286a7336/5756ecf19f7266856a4389da/1473876715043/garden-phs.jpg" class="mx-auto d-block" alt="garden">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="jumbotron jumB" style = "background-color: #e3f2fd">
+        <h2 class="text-center" id= "Contact"> Contact </h2>
+        <hr class="title_handle">
+        <div class="row">
+          <div class="col-6">
+            <form id="form_1">
+              <div class="form-group">
+                <ul>
+                  <li>
+                    <input type="name" class="noBorder" id="inputName" placeholder="Name"/>
+                  </li>
+                  <li>
+                    <input type="email" class="noBorder" id="inputEmail" placeholder="E-mail"/>
+                  </li>
+                  <li>
+                    <input type="phone" class="noBorder" id="inputPhone" placeholder="Phone Number"/>
+                  </li>
+                  <li>
+                    <textarea class="noBorder no_restrict" id="inputMessage" placeholder="Message"></textarea> 
+              </div>
+            </form>
+              <button type="submit" class="button_align" form="form_1" value="Submit">Submit</button>
+          </div>
+        <div class="col-6">
+         <p> Feel free to email me if you have any questions or concerns regarding my work. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
